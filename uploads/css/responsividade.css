@@ -1,0 +1,13 @@
+@media only screen and (max-width: 800px) {
+	.lista-opcoes{
+		overflow: scroll;
+		background: red;
+		padding: 20px;
+		height: 10px;
+	}
+
+	.texto-lista{
+		color:violet;
+	}
+
+}
