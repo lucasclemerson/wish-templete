@@ -1,13 +1,56 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1300px) {
 	.lista-opcoes{
-		overflow: scroll;
-		background: red;
-		padding: 20px;
-		height: 10px;
+		width:auto;
+		height: auto;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		height: 34px;
 	}
 
-	.texto-lista{
-		color:violet;
+	.moldura-banner{
+		margin-top: 0px;
+	}
+	#banner{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.navbar > .col-xs:last-child > form > .input-group{
+		display: none;
 	}
 
+	#banner{
+		height: 180px;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.navbar > .col-xs:last-child{
+	    margin-right: 10px;
+	}
+	.navbar > .col-xs:first-child{
+	    margin-left: 10px;
+	}
+
+	#banner{
+		height: 140px;
+	}
+}	 	
+
+
+@media only screen and (max-width: 450px) {
+	.navbar > .col-xs:last-child > form > a{
+		display: none;
+	}
+	#btn-entrar{
+		display: inline-block;
+	}
+	header{
+		height:90px;
+	}
+
+	#banner{
+		height: 120px;
+	}
 }

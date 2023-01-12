@@ -25,26 +25,40 @@ header{
 main{
     width: 65%;
     margin: auto;
-    margin-top: 0px;
     padding:0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
 }
 
+.moldura-banner{
+    margin: auto;
+    width: 100%; 
+    margin-top:20px;
+    text-align: center;
+}
+
+.moldura-banner:hover{
+    cursor: pointer;
+}
+
+#banner{
+    width: 65%;
+    height: auto;
+}
+
+#btn-entrar{
+    color:rgb(0, 144, 217);
+}
 
 .cardes{
-    height:268px;
-    background-color: white;
-    width: 210px;
-    display: flex;
+    width: 100%;
     padding: 0;
-    position: relative;
-    border-radius: 2px;
-    float: left;
-    margin: 10.5px;
-    box-shadow: 0.1px 0.1px 10px rgb(126, 154, 166); 
+    margin-top: 10px;
+    margin-bottom: -10px;
     transition: transform 1s;
     transform: translateX(0) scale(1);
+    background-color: white;
+    box-shadow: 0.1px 0.1px 10px rgb(126, 154, 166); 
 }   
 
 .cardes:hover{
@@ -55,6 +69,7 @@ main{
     border-left:none;
     width: 200px;
 }
+
 #pesquisa::placeholder{
     color: rgb(126, 154, 166);
 }
@@ -210,4 +225,34 @@ figure > p {
 .list-group-item:hover{
     color:white;
     background-color: #0098f399;
+}
+
+.lista-opcoes{
+    overflow: hidden;
+}
+
+
+footer{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    border: 1px solid green;
+    background-color: #c7c7c7;
+    font-size: 2em;
+    border-radius: 20px;
+}
+
+footer > div{
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+footer  > div > i {
+    color: white;
+    background-color: white;
+    font-weight: bold;
 }

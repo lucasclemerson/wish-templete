@@ -12,8 +12,8 @@
                         <input id="pesquisa" type="search" class="form-control" placeholder="O que você deseja encontrar?" aria-label="search" aria-describedby="button-addon2">
                         <button style="font-weight:bold;height:40px;" class="btn btn-info text-white" id="button-addon2" type="submit">Pesquisar</button>
                     </div>
-                    <a href="#" class="text-info texto-destacado" style="color:rgb(0, 144, 217);">
-                        Sign In
+                    <a href="#" id="btn-entrar" class="text-info texto-destacado">
+                        Entrar
                     </a>
 
                     <a href="#" class="texto-destacado-icone text-dark">
